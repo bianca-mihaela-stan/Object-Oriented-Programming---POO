@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1590057521 source:e:\github\proiect-3-poo\tema 7\main.cpp
+	<iostream>
+	<set>
+	<tuple>
+	<typeinfo>
+	<set>
+	"Firma_de_distributie.h"
+	"Film.h"
+	"Personal.h"
+	"Actor.h"
+	"Actor_principal.h"
+	"Regizor.h"
+	"Vector.h"
+	"Interfata.h"
+
+1589806501 e:\github\proiect-3-poo\tema 7\film.h
+	<bits/stdc++.h>
+	"myexception.h"
+
+1589103729 e:\github\proiect-3-poo\tema 7\myexception.h
+
+1589056012 source:e:\github\proiect-3-poo\tema 7\film.cpp
+	"Film.h"
+
+1589486703 e:\github\proiect-3-poo\tema 7\personal.h
+	"Film.h"
+	<memory>
+	<unordered_map>
+
+1589806501 e:\github\proiect-3-poo\tema 7\firma_de_distributie.h
+	<vector>
+	<string>
+	<memory>
+	"Film.h"
+	"Personal.h"
+	"myexception.h"
+	"Actor.h"
+	"Actor_principal.h"
+	"Regizor.h"
+
+1590002859 e:\github\proiect-3-poo\tema 7\actor.h
+	"Personal.h"
+
+1590002859 e:\github\proiect-3-poo\tema 7\actor_principal.h
+	"Actor.h"
+
+1590000334 source:e:\github\proiect-3-poo\tema 7\personal.cpp
+	"Personal.h"
+
+1590002055 source:e:\github\proiect-3-poo\tema 7\actor.cpp
+	"Actor.h"
+
+1590002055 source:e:\github\proiect-3-poo\tema 7\actor_principal.cpp
+	"Actor_principal.h"
+
+1590002055 source:e:\github\proiect-3-poo\tema 7\regizor.cpp
+	"Regizor.h"
+
+1589539114 e:\github\proiect-3-poo\tema 7\regizor.h
+	"Personal.h"
+
+1589297678 source:e:\github\proiect-3-poo\tema 7\firma_de_distributie.cpp
+
+1590002432 e:\github\proiect-3-poo\tema 7\vector.h
+
+1590057521 e:\github\proiect-3-poo\tema 7\interfata.h
+
