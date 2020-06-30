@@ -14,18 +14,18 @@ numărul de actori (incrementat automat) și o structura de obiecte, alocată di
 fost distribuiți în roluri principale.
 
 
-Cerinte:
+Tasks:
 
-- [x] utilizarea sabloanelor
+- [x] using templates
 ````
 template<typename T>
 class Firma_de_distributie
 ````
-- [x] utilizarea STL
+- [x] using STL
 ````
 set<tuple<Film*, Personal*, int>> s;
 ````
-- [x] utilizarea variabilelor, funcțiilor statice, constantelor și a unei functii const
+- [x] using static variables, static functions, const variables and const functions
 ````
 static std::unordered_map<int, std::set<Film*> > umap_film;
 static std::set<Film*>& get_filme_din_an(int an)
@@ -35,12 +35,12 @@ static std::set<Film*>& get_filme_din_an(int an)
 const Film& ob;
 unsigned int get_incasari() const;
 ````
-- [x] utilizarea conceptelor de RTTI raportat la template-uri
+- [x] using RTTI concepts relative to templates
 ````
 if(typeid(T).name()!=typeid(Personal).name() && typeid(T).name()!=typeid(Actor).name()
            && typeid(T).name()!=typeid(Actor_principal).name() && typeid(T).name()!=typeid(Regizor).name())
 ````
-- [x] tratarea excepțiilor
+- [x] treating exceptions
 ````
 class myexception: virtual public std::exception
 {
@@ -49,14 +49,13 @@ public:
     explicit myexception(int i)
     .....
 ````
-- [x] citirea informațiilor complete a n obiecte, memorarea și afișarea acestora
-- [x] clasele să conțină constructori, destructori, =, funcție prietena de citire a datelor
-- [x] clasa de baza sa conțină funcție virtuala de afisare, rescrisa în clasele derivate
+- [x] readubding, storing and outputting n objects
+- [x] constructors, destructors, operators= and friend function to read
+- [x] base classes should containg a virtual output functions, used by derived classes as well
 ````
 virtual void afisare() const;
 ````
-- [x] operatorul de citire să fie implementat ca funcție prieten (în clasele derivate să se facă
-referire la implementarea acestuia în clasa de baza)
+- [x] read function should be friend and used by derived classes
 ````
 std::istream& operator>> (std::istream& in, Regizor& ob)
 {
@@ -100,8 +99,7 @@ ob.filme.emplace_back(u);
               \         /
               One_man_show
 ````
-- [x] **Named Constructor Idiom** (ascunderea constrctorului in clasa template Firma_de_distributie si crearea de obiecte prin intermediul
-metodei:
+- [x] **Named Constructor Idiom** = hiding the constructor in Firma_de_distributie and creating object through: 
 ````
 static Firma_de_distributie<T>* creare_obiect(int an);
 ````
