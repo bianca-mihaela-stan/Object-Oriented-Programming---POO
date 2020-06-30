@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1585225018 source:e:\github\tema-11-poo\tema 11 poo\array.cpp
+	"array.h"
+	<iostream>
+
+1585225018 e:\github\tema-11-poo\tema 11 poo\array.h
+	<iostream>
+
+1585076528 source:e:\github\tema-11-poo\tema 11 poo\main.cpp
+	<iostream>
+	<algorithm>
+	"multime.h"
+	"array.h"
+	"vector_de_multimi.h"
+
+1585075824 e:\github\tema-11-poo\tema 11 poo\multime.h
+	"array.h"
+	<iostream>
+
+1585072842 source:e:\github\tema-11-poo\tema 11 poo\mutime.cpp
+	"multime.h"
+	"array.h"
+	"vector_de_multimi.h"
+	<iostream>
+
+1585072484 e:\github\tema-11-poo\tema 11 poo\vector_de_multimi.h
+	"multime.h"
+
+1585072469 source:e:\github\tema-11-poo\tema 11 poo\vector_de_multimi.cpp
+	"vector_de_multimi.h"
+	"multime.h"
+	"array.h"
+
