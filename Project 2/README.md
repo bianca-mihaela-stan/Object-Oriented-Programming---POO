@@ -1,24 +1,24 @@
-# Tema-14-Proiect-2-POO
+# Assignment-14-Project-2-OOP
  
- Se dau urmatoarele clase:
-- Vector (int *a)
-- Nr_Natural_Mare(int_nrcif, Vector V)
-- Numar_Intreg_mare(char semn):Nr_Natural_Mare
-Să se implementeze operatiile uzuale
+ Given the classes:
+- Vector (int *a)  as vector
+- Nr_Natural_Mare(int_nrcif, Vector V)   as big natural number
+- Numar_Intreg_mare(char semn):Nr_Natural_Mare  as big integer number
+Implement the usual operations.
 
-Functionalitate:
-- [x] toate clasele au constructori de initializare, copiere, destructori si operatorii >>, << si = supraincarcati
-- [x] ilustrarea conceptelor de mostenire:
+Functionality:
+- [x] all classes have constructors, copy cionstructors and destructors, operator>>, operator<<, operator=
+- [x] inheritance
 ````
 class Nr_natural_mare : public Nr_mare
 class Nr_real_mare : public Nr_mare
 class Nr_intreg_mare : public Nr_natural_mare
 ````
-- [x] utilizare functiilor virtuale pure:
+- [x] pure virtual functions
 ````
 virtual Array modul()=0;
 ````
-- [x] tratarea exceptiiilor + adaugarea unei exceptii prin extinderea clasei exception:
+- [x] treating exceptions and adding a custom exception by extending the exception class:
 ````
 class myexception: public std::exception
 {
@@ -29,14 +29,14 @@ public:
     }
 };
 ````
-- [x] citirea informatiilor complete a n obiecte, memorarea acestoa in `vector_de_nr_intregi` si `vector_de_nr_naturale` si afisarea lor
-- [x] utilizare dynamic_cast
+- [x] reading the complate information for n objects, storing that in `vector_de_nr_intregi` and `vector_de_nr_naturale` and outputting them
+- [x] use of dynamic_cast
 ````
 Nr_mare* a= new Nr_real_mare('+', 258, 1);
     Nr_real_mare* b=dynamic_cast<Nr_real_mare*> (a);
     cout<<b->modul();
 ````
-- [x] utilizare const_cast pentru a putea returna un obect de tip Nr_intreg_mare dintr-o functie const
+- [x] use of const_cast to return an object of type Nr_intreg_mare from a const function
 ````
 Nr_intreg_mare Nr_intreg_mare::operator/(Nr_intreg_mare const& b) const
 {
