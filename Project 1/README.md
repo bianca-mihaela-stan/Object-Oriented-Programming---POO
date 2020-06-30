@@ -1,20 +1,20 @@
-# Tema-11-POO
-Tema 11. Clasa ”Multime” (multimi finite de numere intregi reprezentate ca tablouri unidimensionale)
+# Assignment-11-Project-1-OOP
+Class ”Multime” (finite sets of integer numbers represented by unidimensional arrays)
 
-- [x] membri privati pentru vectorul propriuzis si numarul de elemente;
+- [x] private members: the number of elements in the vector and the vector itself
 
-- [x] constructori pentru initializare si copiere;
+- [x] constructors and copy constructors
 
-- [x] destructor;
+- [x] destructors
 
-- [x] metoda publica pentru transformare a unui vector in multime, prin eliminarea duplicatelor din respectivul vector;
+- [x] public method to transform a vector into a set by eliminating duplicates
 
-- [x] reuniune a doua multimi, implementata prin supraincarcarea operatorului +;
+- [x] overload operator+ with the reunion of 2 sets
 
-- [x] intersectie a doua multimi, implementata prin supraincarcarea operatorului *;
+- [x]  overload operator* with the intersection of 2 sets
 
-- [x] diferenta a doua multimi, implementata prin supraincarcarea operatorului -;
+- [x] overload - with teh difference of 2 sets
 
-- [x] supraincarcarea operatorilor >>, << (fara dezalocare memoriei la afisare);
+- [x] overload operators << and >> 
 
-- [x] metoda publica pentru citirea, memorarea si afisarea a n obiecte.
+- [x] public method to read, store and output n objects of type "Multime"
