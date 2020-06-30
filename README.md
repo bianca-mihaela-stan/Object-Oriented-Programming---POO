@@ -1,2 +1,2 @@
 # Object-Oriented-Programming
-[C++] casses, inheritance, design patterns
+1st year, 2nd semester
