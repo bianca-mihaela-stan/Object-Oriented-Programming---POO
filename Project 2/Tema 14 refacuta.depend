@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1587573935 source:e:\github\tema 14 refacuta\array.cpp
+	"array.h"
+	<iostream>
+
+1587552843 e:\github\tema 14 refacuta\array.h
+	<iostream>
+
+1587574409 source:e:\github\tema 14 refacuta\main.cpp
+	<iostream>
+	"nr_intreg_mare.h"
+	"nr_natural_mare.h"
+	"nr_mare.h"
+	"nr_real_mare.h"
+
+1587555929 e:\github\tema 14 refacuta\nr_mare.h
+	"array.h"
+
+1587572698 e:\github\tema 14 refacuta\nr_natural_mare.h
+	"nr_mare.h"
+	"array.h"
+
+1587554062 source:e:\github\tema 14 refacuta\nr_mare.cpp
+	"nr_mare.h"
+
+1587574429 source:e:\github\tema 14 refacuta\nr_natural_mare.cpp
+	"nr_natural_mare.h"
+	"myexception.h"
+
+1587574288 source:e:\github\tema 14 refacuta\nr_intreg_mare.cpp
+	"nr_intreg_mare.h"
+	"myexception.h"
+
+1587554614 e:\github\tema 14 refacuta\myexception.h
+	<exception>
+
+1587571259 e:\github\tema 14 refacuta\nr_intreg_mare.h
+	"nr_natural_mare.h"
+
+1587573609 source:e:\github\tema 14 refacuta\nr_real_mare.cpp
+	"nr_real_mare.h"
+
+1587572025 e:\github\tema 14 refacuta\nr_real_mare.h
+	"nr_mare.h"
+	"array.h"
+
+1587574560 source:e:\github\tema 14 refacuta\vector_de_nr_intregi.cpp
+	"vector_de_nr_intregi.h"
+
+1587574560 e:\github\tema 14 refacuta\vector_de_nr_intregi.h
+	"nr_intreg_mare.h"
+
+1587574677 source:e:\github\tema 14 refacuta\vector_de_nr_naturale.cpp
+	"nr_natural_mare.h"
+	"vector_de_nr_naturale.h"
+	<cstring>
+
+1587574656 e:\github\tema 14 refacuta\vector_de_nr_naturale.h
+	"nr_natural_mare.h"
+
