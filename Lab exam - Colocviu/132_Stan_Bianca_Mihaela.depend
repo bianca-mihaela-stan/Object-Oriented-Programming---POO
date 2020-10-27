@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1590485096 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\main.cpp
+	"Masca.h"
+	"Chirurgicala.h"
+	"MascaChirurgicala.h"
+	"MascaPolicarbonat.h"
+	"Dezinfectatnt.h"
+	"DezinfectantBacterii.h"
+	"DezinfectantVirusuri.h"
+	"DezinfectantFungi.h"
+	"Achizitie.h"
+	"Afacere.h"
+
+1590484274 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\triplet.h
+	<bits/stdc++.h>
+
+1590478816 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\chirurgicala.cpp
+	"Chirurgicala.h"
+
+1590478776 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\chirurgicala.h
+	<bits/stdc++.h>
+	"Masca.h"
+
+1590478776 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\masca.h
+	<bits/stdc++.h>
+
+1590478776 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\masca.cpp
+	"Masca.h"
+
+1590478776 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\mascachirurgicala.cpp
+	"MascaChirurgicala.h"
+
+1590478776 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\mascachirurgicala.h
+	<bits/stdc++.h>
+	"Masca.h"
+
+1590478486 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\mascapolicarbonat.cpp
+	"MascaPolicarbonat.h"
+
+1590478776 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\mascapolicarbonat.h
+	<bits/stdc++.h>
+	"Masca.h"
+
+1590479349 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantbacterii.cpp
+	"DezinfectantBacterii.h"
+
+1590482181 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantbacterii.h
+	<bits/stdc++.h>
+	"Dezinfectatnt.h"
+
+1590480590 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectatnt.h
+	<bits/stdc++.h>
+
+1590479450 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantfungi.cpp
+	"DezinfectantFungi.h"
+
+1590482181 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantfungi.h
+	<bits/stdc++.h>
+	"Dezinfectatnt.h"
+
+1590479497 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantvirusuri.cpp
+	"DezinfectantVirusuri.h"
+
+1590482181 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantvirusuri.h
+	<bits/stdc++.h>
+	"Dezinfectatnt.h"
+
+1590479869 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectatnt.cpp
+	"Dezinfectatnt.h"
+
+1590484083 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\afacere.cpp
+	"Afacere.h"
+
+1590485229 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\afacere.h
+	<bits/stdc++.h>
+	"Triplet.h"
+	"Masca.h"
+	"Chirurgicala.h"
+	"Masca.h"
+	"MascaChirurgicala.h"
+	"MascaPolicarbonat.h"
+	"Dezinfectatnt.h"
+	"DezinfectantBacterii.h"
+	"DezinfectantVirusuri.h"
+	"DezinfectantFungi.h"
+	"Achizitie.h"
+
+1590484961 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\achizitie.h
+	<bits/stdc++.h>
+	"Triplet.h"
+	"Masca.h"
+	"Chirurgicala.h"
+	"Masca.h"
+	"MascaChirurgicala.h"
+	"MascaPolicarbonat.h"
+	"Dezinfectatnt.h"
+	"DezinfectantBacterii.h"
+	"DezinfectantVirusuri.h"
+	"DezinfectantFungi.h"
+	"DezinfectantKiller.h"
+
+1590484847 e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\dezinfectantkiller.h
+	"Dezinfectatnt.h"
+	"DezinfectantBacterii.h"
+	"DezinfectantFungi.h"
+	"DezinfectantVirusuri.h"
+
+1590485106 source:e:\github\unibuc-an-1-sem-2\poo\colocviu\132_stan_bianca_mihaela\achizitie.cpp
+	"Achizitie.h"
+
