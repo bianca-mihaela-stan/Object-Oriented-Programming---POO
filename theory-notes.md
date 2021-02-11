@@ -1,3 +1,11 @@
+### Incapsularea
+- Toate variabilele si functiile sunt inglobate intr- singura structura de date si reprezinta caracteristici ale acesteia.
+- Accesul la anumiti membri ai unei structuri de adte pote fi controlat prin modificatori de acces (public, protected si private).
+
+### Getters and setters
+- Sunt 2 metode care respecta incapsularea si ne dau posibilitatea de a vedea sau de a modifica datele unei clase.
+- Sunt publice.
+
 ### 7. Constructori/destructori
 
 1. constructorul este executat la crearea obiectului, destructorul la distrugerea obiectului
@@ -1266,7 +1274,7 @@ class Clasa
 
 1. Poate fi utilizata doar la constructori.
 2. Nu putem pune variabile statice in ea (ar insenma ca daca apelam de 2 ori constructorul in program initializam de 2 ori variabila statica, dar ea poate fi initializata doar o data)
-3. In cazul in care clasa are o data membra sub forma de referinta, este obligatoriu sa o initalizam in lista de initializare dintr-un paramatru transmis prin referinta.
+3. In cazul in care clasa are o data membra sub forma de referinta, este obligatoriu sa o initalizam in lista de initializare dintr-un parametru transmis prin referinta.
 4. In cazul in care avem o data membra constanta, aceasta poate fi initializata doar o data, deci trebuie sa fie initializata in lista de initializare.
 5. Se utilizieaza pentru:
     - initializarea datelor membru care nu au constructor fara parametri
